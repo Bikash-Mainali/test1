@@ -1,0 +1,9 @@
+
+<ul>
+    <li *ngFor="let score of student.scores">
+       Type: {{score.type}}<br>
+       Scores: {{score.score}}
+    </li>
+</ul>
+
+<button (click)="onDelete(student._id)">Delete</button>

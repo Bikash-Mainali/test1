@@ -1,0 +1,19 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "test 1",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "devStart": "npm start"
+  },
+  "keywords": [],
+  "author": "Bikash Mainali",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.10"
+  }
+}
